@@ -24,7 +24,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
 		// setup locationManager
 		locationManager.delegate = self;
 		locationManager.distanceFilter = kCLLocationAccuracyNearestTenMeters;
-		locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+//		locationManager.desiredAccuracy = kCLLocationAccuracyBest;
 
 		// setup mapView
 		mapView.delegate = self
